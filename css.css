@@ -9,7 +9,7 @@
 }
 
 
-.subtitle{
+.subtitleDexter{
 
     float: right;
     width: 70%;
@@ -20,6 +20,19 @@
     font-family: Chalkduster, fantasy;
     font-size: 200%;;
     color: rgb(51, 5, 5);
+}
+
+.subtitleLost{
+
+    float: right;
+    width: 70%;
+    height: 100%;
+    background-image: url("https://wallpapermemory.com/uploads/626/lost-background-1080p-421594.jpg");
+    
+    text-align: center;
+    font-family: Chalkduster, fantasy;
+    font-size: 200%;;
+    color: rgb(236, 236, 236);
 }
 
 img{
