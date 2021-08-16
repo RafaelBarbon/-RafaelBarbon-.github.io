@@ -1,0 +1,64 @@
+
+
+.div {
+    float: left;
+    width: 85%;
+    height: 25%;
+    background-color:  #595ea0;
+}
+
+
+.subtitle{
+
+    float: right;
+    width: 70%;
+    height: 100%;
+    background-color: #941f17;
+    
+    text-align: center;
+    font-family: Chalkduster, fantasy;
+    font-size: 200%;;
+    color: rgb(51, 5, 5);
+}
+
+img{
+    /*https://www.w3schools.com/css/css3_images.asp*/
+    border-image: space;
+    display: block;
+    margin-left: 15%;
+     margin-right: auto;
+    width: 100%;     
+}
+
+.ml2 {
+
+    float: right;
+    width: 90%;
+    height: 100%;
+    background-color: #9097FD;
+
+
+    text-align: center;
+    font-family: Chalkduster, fantasy;
+    font-size: 400%;;
+    color: #fff;
+
+    font-weight: 900;
+    font-size: 3.5em;
+  }
+  
+.ml2 .letter {
+
+    float: right;
+    width: 90%;
+    height: 100%;
+    background-color: #9097FD;
+
+    text-align: center;
+    font-family: Chalkduster, fantasy;
+    font-size: 400%;;
+    color: #fff;
+
+    display: inline-block;
+    line-height: 1em;
+}

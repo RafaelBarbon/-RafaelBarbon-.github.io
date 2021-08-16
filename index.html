@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RBMeMeS</title>
+    <link rel="stylesheet" type="text/css" href="css.css">
+
+</head>
+
+<h1 class="ml2">RB - SeRiEs<>MeMeS</h1>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+<!--https://tobiasahlin.com/moving-letters/#2-->
+<script>
+    anime.timeline({loop: true})
+    .add({
+        targets: '.ml2 .letter',
+        scale: [4,1],
+        opacity: [0,1],
+        translateZ: 0,
+        easing: "easeOutExpo",
+        duration: 950,
+        delay: (el, i) => 70*i
+    }).add({
+        targets: '.ml2',
+        opacity: 0,
+        duration: 1000,
+        easing: "easeOutExpo",
+        delay: 1000
+    });
+</script> 
+
+<body class="div">
+
+    <div class="div">
+
+        <h2 class="subtitle">
+            DeXtEr MoRgAn
+        </h2>
+
+        <!--https://ultimastatus.com/20-killer-dexter-memes/-->
+        <img src="https://ultimastatus.com/wp-content/uploads/2021/06/dexter-memes.jpg"></img>
+
+        <img src= "https://ultimastatus.com/wp-content/uploads/2021/06/dexter-be-yourself-memes.jpg"></img>
+
+        <img src="https://ultimastatus.com/wp-content/uploads/2021/06/dexter-buy-another-boat-memes.jpg"></img>
+
+        <img src="https://ultimastatus.com/wp-content/uploads/2021/06/dexter-ice-cream-memes.jpg"></img>
+
+    </div>
+
+
+</body>
+</html>
