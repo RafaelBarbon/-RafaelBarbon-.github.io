@@ -2,9 +2,10 @@
 
 .div {
     float: left;
-    width: 100%;
+    width: 85%;
     height: 25%;
-    background-color:  #595ea0;
+    background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm33-chim-18-c-brick_0.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=450005ef27fb558303505681d731cdb8");
+    
 }
 
 
@@ -13,7 +14,7 @@
     float: right;
     width: 70%;
     height: 100%;
-    background-color: #941f17;
+    background-image: url("https://media.istockphoto.com/photos/blood-splatter-red-acrylic-paint-splash-isolated-on-wall-background-picture-id876289386");
     
     text-align: center;
     font-family: Chalkduster, fantasy;
@@ -26,16 +27,17 @@ img{
     border-image: space;
     display: block;
     margin-left: 15%;
-     margin-right: auto;
+     margin-right: 15%;
     width: 100%;     
 }
 
-.ml2 {
+.tittle {
 
     float: right;
     width: 90%;
     height: 100%;
-    background-color: #9097FD;
+
+  
 
 
     text-align: center;
@@ -44,11 +46,10 @@ img{
     color: #fff;
 
     font-weight: 900;
-    font-size: 3.5em;
+    font-size: 5.5em;
   }
   
 .ml2 .letter {
-
     float: right;
     width: 90%;
     height: 100%;
@@ -62,3 +63,19 @@ img{
     display: inline-block;
     line-height: 1em;
 }
+
+
+
+.button {
+    background-color: #0000008e; /* Green */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+  }
