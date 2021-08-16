@@ -2,8 +2,8 @@
 
 .div {
     float: left;
-    width: 85%;
-    height: 25%;
+    width: auto;
+    height: auto;
     background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm33-chim-18-c-brick_0.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=450005ef27fb558303505681d731cdb8");
     
 }
