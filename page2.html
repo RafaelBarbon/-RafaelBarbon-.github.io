@@ -1,0 +1,76 @@
+<!--Created by Rafael Silva Barbon-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>RBMeMeS</title>
+        <link rel="stylesheet" type="text/css" href="css.css">
+
+    </head>
+
+    <h1 class="tittle">RB - SeRiEs<>MeMeS</h1>
+
+    <!--Pages-->
+    <div class="pagination">
+        <a href="index.html">&laquo;</a>
+        <a href="index.html">DeXtEr</a>
+        <a class="active" href="page2.html">LoSt</a>
+        <a href="index.html">&raquo;</a>
+    </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+    <!--https://tobiasahlin.com/moving-letters/#2-->
+    <script>
+        anime.timeline({loop: true})
+        .add({
+            targets: '.tittle .letter',
+            scale: [4,1],
+            opacity: [0,1],
+            translateZ: 0,
+            easing: "easeOutExpo",
+            duration: 400,
+            delay: (el, i) => 70*i
+        }).add({
+            targets: '.tittle',
+            opacity: 0,
+            duration: 1000,
+            easing: "easeOutExpo",
+            delay: 500
+        });
+    </script> 
+
+    <body class="divLost">
+
+        <div class="divLost">
+
+            <h2 class="subtitleLost">
+                LoSt
+                <div>
+                    <a href="https://www.youtube.com/watch?v=QuYo9PWmlbc">
+                    <button class="button">Trailer</button>
+                    </a>
+            
+                    <a href="https://www.cbr.com/lost-memes/">
+                        <button class="button">Source</button>
+                    </a>
+                </div>
+            </h2>
+        
+            <img src="https://static3.cbrimages.com/wordpress/wp-content/uploads/2018/01/13-1.jpg?q=50&fit=crop&w=740&h=802&dpr=1.5"></img>
+
+            <img src="https://static0.cbrimages.com/wordpress/wp-content/uploads/2018/01/5-1.jpg?q=50&fit=crop&w=740&h=574&dpr=1.5"></img>
+
+            <img src="https://static3.cbrimages.com/wordpress/wp-content/uploads/2018/01/1.png?q=50&fit=crop&w=740&h=554&dpr=1.5"></img>
+
+            <div class="pagination">
+                <a href="index.html">&laquo;</a>
+                <a href="index.html">DeXtEr</a>
+                <a class="active" href="page2.html">LoSt</a>
+            
+                <a href="index.html">&raquo;</a>
+            </div>
+        </div>
+    </body>
+</html>

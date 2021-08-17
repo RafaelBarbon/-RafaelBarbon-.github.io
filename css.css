@@ -1,21 +1,25 @@
-
-
-.div {
+/*Created by Rafael Silva Barbon*/
+.divDexter {
     float: left;
     width: auto;
     height: auto;
-    background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm33-chim-18-c-brick_0.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=450005ef27fb558303505681d731cdb8");
-    
+    background-image: url("https://besthqwallpapers.com/Uploads/5-4-2019/86267/thumb2-red-grunge-background-red-wall-grunge-red-texture-creative-backgrounds-old-wall.jpg");
 }
 
+.divLost {
+    float: left;
+    width: auto;
+    height: auto;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoiRT1gEWlXi-wosdGjlhPNYW-LyvaCoEzbQ&usqp=CAU");
+}
 
 .subtitleDexter{
-
+    align-items: center;
     float: right;
     width: 70%;
     height: 100%;
     background-image: url("https://images.alphacoders.com/481/481499.jpg");
-    
+
     text-align: center;
     font-family: Chalkduster, fantasy;
     font-size: 200%;;
@@ -23,7 +27,7 @@
 }
 
 .subtitleLost{
-
+    align-items: center;
     float: right;
     width: 70%;
     height: 100%;
@@ -37,6 +41,7 @@
 
 img{
     /*https://www.w3schools.com/css/css3_images.asp*/
+    align-items: center;
     border-image: space;
     display: block;
     margin-left: 15%;
@@ -47,7 +52,7 @@ img{
 .tittle {
 
     float: right;
-    width: 90%;
+    width: 100%;
     height: 100%;
 
   
@@ -77,8 +82,6 @@ img{
     line-height: 1em;
 }
 
-
-
 .button {
     background-color: #0000008e; /* Green */
     border: none;
@@ -92,3 +95,32 @@ img{
     cursor: pointer;
     border-radius: 50%;
   }
+
+  .pagination {
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    font-family: Chalkduster, fantasy;
+  }
+  
+  .pagination a {
+    color: white;
+    float: left;
+    padding: 8px 16px;
+    text-decoration:none ;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .pagination a.active {
+    background-color: #4c6baf;
+    color: white;
+    align-items: center;
+    text-align: center;
+    font-family: Chalkduster, fantasy;
+
+  }
+  
+  .pagination a:hover:not(.active) {background-color: #ddd;}
+  
+  
